@@ -1,6 +1,5 @@
 import poems
 import sign
-from poems import SHEVCHENKO_POEM2
 
 name = 'Ярослав'
 owner1 = sign.owner.format('owner')
@@ -13,12 +12,12 @@ print(wishes)
 random = "**************************************************************************"
 print(random)
 
-virsh1 = poems.SHEVCHENKO_POEM.format(SHEVCHENKO_POEM2)
+virsh1 = poems.SHEVCHENKO_POEM.format('SHEVCHENKO_POEM1')
 
 print(virsh1)
 print(random)
 
-virsh2 = poems.SHEVCHENKO_POEM2.format(SHEVCHENKO_POEM2)
+virsh2 = poems.SHEVCHENKO_POEM2.format('SHEVCHENKO_POEM2')
 
 print(virsh2)
 print(random)
