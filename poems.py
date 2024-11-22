@@ -119,6 +119,3 @@ SHEVCHENKO_POEM2 = """
 Людей і [Бога] не прокляв!
 """
 
-print(SHEVCHENKO_POEM, SHEVCHENKO_POEM2)
-
-

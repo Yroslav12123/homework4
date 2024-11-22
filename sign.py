@@ -1,1 +1,1 @@
-owner = f'Made by {fullname}
+owner = f"домашку виконав: {'Ярослав Волков'}"
