@@ -1,10 +1,11 @@
 import poems
 import sign
 
-name = 'Ярослав'
-owner1 = sign.owner.format('owner')
+fullname = 'Ярослав Волков'
 
-print(owner1)
+name3 = sign.OWNER.format(avtor='Ярослав')
+
+print(name3)
 
 wishes = ('З цього курсу я хочу вивчити python basics\nтакож це мені потрібно для моєї майбутньої роботи')
 print(wishes)
@@ -12,12 +13,12 @@ print(wishes)
 random = "**************************************************************************"
 print(random)
 
-virsh1 = poems.SHEVCHENKO_POEM.format('SHEVCHENKO_POEM1')
+poem1 = poems.SHEVCHENKO_POEM.format('SHEVCHENKO_POEM1')
 
-print(virsh1)
+print(poem1)
 print(random)
 
-virsh2 = poems.SHEVCHENKO_POEM2.format('SHEVCHENKO_POEM2')
+poem2 = poems.SHEVCHENKO_POEM2.format('SHEVCHENKO_POEM2')
 
-print(virsh2)
+print(poem2)
 print(random)
